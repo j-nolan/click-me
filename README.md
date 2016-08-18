@@ -5,9 +5,9 @@ Click Me is a web application that allows people to communicate freely through a
 A live demo is available [here](https://clickme.otherwise.ch).
 
 ## Deployment
-- Move the content of this directory in a PHP/MySQL environement
-- Import the database structure: `mysql -u username -p database_name < db_structure.sql`
-- Edit the `inc/config.php` file and set the host, username, password and name of the MySQL database
+- Clone the content of this directory in a PHP/MySQL environement,
+- Import the database structure: `mysql -u username -p database_name < db_structure.sql`,
+- Edit the `inc/config.php` file and set the host, username, password and name of the MySQL database.
 
 ## Notes
 The particularity of this project is that it was build from scratch, without the use of any library. The frontend is purely Vanilla JavaScript, CSS and HTML. The backend is a simple PHP/MySQL application running on an Apache server.
