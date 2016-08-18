@@ -1,0 +1,46 @@
+body
+{
+	background:
+		#111
+		url('../imgs/orange/gradient.png')
+		repeat-x
+		scroll
+		top left;
+}
+a,
+div#msg,
+form em,
+form label,
+h1,
+h2,
+strong
+{
+	color:#FD9A07;
+}
+div#header
+{
+	background:
+		transparent
+		url('../imgs/orange/top.png')
+		no-repeat
+		scroll
+		top center;
+}
+ul#styles li#orange a
+{
+	background:
+		transparent
+		url('../imgs/arrow.png')
+		no-repeat
+		scroll
+		bottom center;
+}
+div#clickMe
+{
+	background:
+		#000
+		url('../imgs/orange/clickMeBg.png')
+		repeat-x
+		scroll
+		center center;
+}

@@ -1,0 +1,380 @@
+/*
+  * Main CSS
+ */
+html
+{
+	height:100%;
+}
+body
+{
+	color:#777;
+	font:
+		normal
+		normal
+		normal
+		11pt
+		"Trebuchet MS", Arial, Verdana;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+a
+{
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+h1
+{
+	border-bottom:
+		1px
+		solid
+		#555;
+	margin-bottom:25px;
+	padding-bottom:25px;
+}
+h2
+{
+	font-size:14pt;
+	margin:15px 0 10px;
+}
+hr
+{
+	border-style:dotted;
+	border-width:1px 0 0 0;
+	height:0;
+	margin:2em 0 2em 0;
+}
+strong {
+	color:#aaa;
+}
+div#footer,
+ul#styles a
+{
+	font-size:11px;
+}
+div#header
+{
+	height:330px;
+	position:relative;
+}
+div#header,
+div#mainContent
+{
+	margin:0 10% 0 10%;
+	width:80%;
+}
+div#xml
+{
+	min-height:100%;
+	position:relative;
+}
+* html div#xml
+{
+	height:100%;
+}
+div#content
+{
+	padding-bottom:3em;
+	position:relative;
+	overflow:hidden;
+}
+div#footer
+{
+	background-color:#000;
+	border-top:
+		0px
+		solid
+		#333;
+	height:2em;
+	margin-top:-2em;
+	position:relative;
+	text-align:center;
+}
+div#gadgets
+{
+	left:0;
+	margin:0 10% 0 10%;
+	position:absolute;
+	top:0;
+	width:80%;
+}
+ul#styles
+{
+	list-style:none;
+	margin:0 -50px 0 -50px;
+	padding:0 50px 0 50px;
+	position:absolute;
+	right:25px;
+	top:0;
+}
+ul#styles li
+{
+	background:
+		transparent
+		url('../imgs/styles.gif')
+		no-repeat
+		scroll
+		top center;
+	display:block;
+	float:left;
+	height:31px;
+	margin:0 -27px 0 -27px;
+	text-align:center;
+	width:170px;
+}
+ul#styles li a
+{
+	display:block;
+	font-weight:normal;
+	height:30px;
+	padding:0;
+	width:170px;
+}
+ul#styles li a:Hover,
+ul#styles li a:Focus,
+ul#styles li a:Active
+{
+	background:
+		transparent
+		url('../imgs/arrow.png')
+		no-repeat
+		scroll
+		bottom center;
+}
+div.floatDebugger
+{
+	clear:both;
+}
+div#mainContent
+{
+	background-color:#111;
+}
+form input
+{
+	background:
+		#FFF
+		url('../imgs/form.png')
+		repeat-x
+		scroll
+		top left;
+	border-width:0;
+}
+form div.line
+{
+	margin:0;
+	position:relative;
+	width:100%;
+}
+/*
+  * Registration Focus
+*/
+/*\*/
+* html form#reg
+{
+	height:150px;
+}
+/**/
+form#reg
+{
+	background-color:#000;
+	margin:0 20% 0 20%;
+	min-height:150px;
+	padding:25px;
+	position:relative;
+}
+form#reg h2
+{
+	background:
+		#111
+		url('../imgs/lines.png')
+		repeat-x
+		scroll
+		0 0;
+	height:80px;
+	margin:-25px -25px 25px -25px;
+	padding-top:40px;
+	text-align:center;
+}
+form#reg p
+{
+	margin:1em 0 3em 2em;
+}
+form#reg label
+{
+	display:block;
+}
+form#reg input
+{
+	float:right;
+	width:120px;
+}
+div#feike
+{
+	display:none;
+}
+div#submit
+{
+	margin-top:15px;
+	text-align:center;
+}
+input#mail
+{
+	width:200px;
+}
+div#submit button
+{
+	background:
+		#000
+		url('../imgs/blue/send.png')
+		no-repeat
+		scroll
+		center center;
+	border-width:0;
+	color:#000;
+	cursor:pointer;
+	height:145px;
+	position:relative;
+	width:279px;
+}
+div#submit input
+{
+	display:none;
+}
+div#bottomleft,
+div#bottomright,
+div#topleft,
+div#topright
+{
+	background:
+		#111
+		url('../imgs/corners.gif')
+		no-repeat
+		scroll
+		0 0;
+	height:6px;
+	font-size:0;
+	line-height:0;
+	position:absolute;
+	width:6px;
+}
+div#topleft
+{
+	left:0;
+	top:0;
+}
+div#topright
+{
+	background-position:-6px 0;
+	top:0;
+	right:0;
+}
+div#bottomleft
+{
+	background-position:-6px -6px;
+	bottom:0;
+	left:0;
+}
+div#bottomright
+{
+	background-position:0 -6px;
+	bottom:0;
+	right:0;
+}
+/*
+  * ClickMe Focus
+ */
+div#app
+{
+	height:371px;
+	position:relative;
+}
+div#box
+{
+	background-color:
+		#000;
+	border:
+		4px
+		solid
+		#050505;
+	float:right;
+	right:0;
+	width:20%;
+}
+div#box h2
+{
+	text-align:center;
+	margin:15px;
+}
+div#box p
+{
+	margin:15px;
+}
+div#box a
+{
+	margin:0;
+}
+div#clickMe
+{
+	border:
+		2px
+		solid
+		#050505;
+	color:white;
+	cursor:pointer;
+	font-size:15pt;
+	height:371px;
+	overflow:hidden;
+	position:absolute;
+	width:75%;
+}
+div#clickMe span
+{
+	position:absolute;
+}
+.invisible
+{
+	font-size:0;
+	height:0;
+	line-height:0;
+	visibility:hidden;
+}
+form#clickMeForm
+{
+	background:
+		transparent
+		url('../imgs/clickMeForm.png')
+		no-repeat
+		scroll
+		center center;
+	position:absolute;
+	overflow:hidden;
+	text-align:left;
+	width:150px;
+}
+form#clickMeForm input#press
+{
+	display:none;
+}
+form#clickMeForm input
+{
+	float:left;
+	margin:15px 0 15px 5px;
+	width:110px;
+}
+form#clickMeForm button
+{
+	background:
+		#000
+		url('../imgs/clickMeButton.png')
+		no-repeat
+		scroll
+		center center;
+	border-width:0;
+	float:right;
+	height:21px;
+	margin:15px 5px 15px 0;
+	width:26px;
+}

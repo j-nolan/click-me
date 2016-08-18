@@ -1,0 +1,45 @@
+body
+{
+	background:
+		#111
+		url('../imgs/blue/gradient.png')
+		repeat-x
+		scroll
+		top left;
+}
+a,
+div#msg,
+form em,
+form label,
+h1,
+h2
+{
+	color:#04B0EA;
+}
+div#header
+{
+	background:
+		transparent
+		url('../imgs/blue/top.png')
+		no-repeat
+		scroll
+		top center;
+}
+ul#styles li#blue a
+{
+	background:
+		transparent
+		url('../imgs/arrow.png')
+		no-repeat
+		scroll
+		bottom center;
+}
+div#clickMe
+{
+	background:
+		#000
+		url('../imgs/blue/clickMeBg.png')
+		repeat-x
+		scroll
+		center center;
+}
