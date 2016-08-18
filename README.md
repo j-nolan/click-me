@@ -14,3 +14,5 @@ The particularity of this project is that it was build from scratch, without the
 
 It was developed by James Nolan during the summer of 2008 — 8 years ago! —, as a high school side project. The project was revived in 2016 as a demonstration.
 
+Obviously, such an application would be done very differently today. Frameworks, browser support and best practices have changed a lot since then.
+
