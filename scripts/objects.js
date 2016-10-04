@@ -59,13 +59,20 @@ var oCJS =
 		return false;
 	}
 }
+
+/* Dynamic stylesheets manager. This object contains functions that allow to
+ * change the active stylesheet */
 var oStyle =
 {
+	// Initialize the default stylesheet to be used. By default, the first DOM
+	// node is set to be used.
 	fnInit : function ()
 	{
 		var sStyle = new String(this.firstChild.nodeValue);
 		oStyle.fnSetSheet(sStyle.trim());
 	},
+
+	// Set the stylesheet that has the title passed as a parameter
 	fnSetSheet : function (sTitle)
 	{
 		var oLink;
@@ -80,10 +87,13 @@ var oStyle =
 			}
 		}
 	},
+
+
+	// Get the currrent stylesheet that is used
 	fnGetSheet : function ()
 	{
 		var oLink;
-		for (var nX = 0; oLink = document.getElementsByTagName('link')[nX];nX++)
+		for (var nX = 0; oLink = document.getElementsByTagName('link')[nX]; nX++)
 		{
 			if (oLink.getAttribute('rel').indexOf('style') != -1
 			&& oLink.getAttribute('title')
@@ -92,6 +102,8 @@ var oStyle =
 		}
 		return null;
 	},
+
+	
 	fnGetPreferredSheet : function ()
 	{
 		var oLink;
